@@ -58,3 +58,33 @@ As part of the exploratory data analysis (EDA), I examined scoring volatility ac
 ```bash
 git clone [https://github.com/YOUR_USERNAME/OmniSport_AI.git](https://github.com/YOUR_USERNAME/OmniSport_AI.git)
 cd OmniSport_AI
+
+# ⚡ OmniSport AI: Real-Time Generative Sports Commentary
+
+OmniSport AI is a full-stack data application that transforms raw sports data into live, persona-based commentary using Generative AI.
+
+## 🚀 The Vision
+Most sports apps provide raw numbers. This project provides **narrative**. By combining real-time data ingestion with Large Language Models (LLMs), OmniSport AI acts as an automated "Color Commentator" for your favorite games.
+
+## 🛠️ Technology Stack
+* **Language:** Python 3.10+
+* **Dashboard:** Streamlit (Real-time UI)
+* **AI Brain:** OpenAI GPT-3.5/4 (Generative Logic)
+* **Data Science:** Pandas, Matplotlib, Seaborn
+* **Security:** Dotenv (API Key Management)
+
+## 📊 Analytical Component (Capstone Requirement)
+This project includes a dedicated analysis module (`notebooks/analysis_script.py`) that examines scoring volatility. 
+
+**Key Insight:** By analyzing scoring spreads, we optimized the AI narrator to recognize "blowouts" vs. "nail-biters," ensuring the commentary matches the game's intensity.
+
+![Scoring Analysis](notebooks/scoring_analysis.png)
+
+## 📁 Project Structure
+* `main_dashboard.py`: The live Streamlit application.
+* `src/`: Core engine for data ingestion and AI narration.
+* `notebooks/`: Exploratory data analysis and visualizations.
+* `.env`: (Private) API credentials.
+
+## 📝 License
+This project is licensed under the MIT License - see the `LICENSE` file for details.
